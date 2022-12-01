@@ -2,13 +2,13 @@ macro_copy_screenshot: macro_copy_screenshot{
 compatible = "zmk,behavior-macro";
 label = "macro_copy_screenshot";
 #binding-cells = <0>;
-bindings = <&kp LEFT_SHIFT>, <&kp LCMD>, <&kp NUMBER_4>;
+bindings = <&sk LEFT_CONTROL>, <&sk LEFT_SHIFT>, <&sk LEFT_COMMAND>, <&kp NUMBER_4>;
 };
 macro_save_screenshot: macro_save_screenshot{
 compatible = "zmk,behavior-macro";
 label = "macro_save_screenshot";
 #binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND>, <&kp LCTRL>, <&kp LEFT_SHIFT>, <&kp NUMBER_4>;
+bindings = <&sk LEFT_SHIFT>, <&sk LCMD>, <&kp NUMBER_4>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
